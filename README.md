@@ -18,7 +18,6 @@ des produits, tout en préservant l’environnement et en assurant la durabilit�
 <br>
 <br>
 
----
 ##  Les détails de la culture de la Tomate:
 Les conditions environnementales idéales pour la croissance de la tomate:
 - Température : Les tomates préfèrent des températures comprises entre 18°C et 29°C pendant
@@ -34,7 +33,7 @@ potassium pour une croissance saine. Pensez à incorporer un engrais équilibré
 bonne disponibilité des nutriments.
 <br>
 <br>
----
+
 ## Architecture du Projet:
 >Notre architecture repose sur un modèle de producteur-consommateur. Les services web
 agissent comme des producteurs, collectant et envoyant les données des capteurs dans le système.
@@ -46,22 +45,22 @@ gestion efficace et précise de l’agriculture intelligente:<br>
 <img width="233" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/c0d0ac36-f071-4f5c-a60a-a3dd2eea6e7b">
 <br>
 <br>
----
+
 ## Les technologies utilisées dans ce projet:
-### + Apache Kafka:
++ ###  Apache Kafka:
 > Apache Kafka est une plateforme de streaming de données open source, développée par
 la Fondation Apache. Elle fournit une architecture de messagerie distribuée pour la gestion de
 flux de données en temps réel:<br>
 <img width="186" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/745713e8-0905-45c1-9d4e-8bcc0d7269ef">
 <br>
 <br>
-### + Spring boot:
++ ### Spring boot:
 >Spring Boot est un framework Java puissant et polyvalent, largement utilisé pour le
 développement d’applications autonomes et prêtes à l’emploi. Grâce à sa configuration automatique intelligente, il permet de réduire considérablement le temps et les efforts nécessaires pour démarrer un projet:<br>
 <img width="276" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/f33fe36f-d732-4c0e-8a12-97fc5cf23dd9">
 <br>
 <br>
-### + SOAP UI:
++ ### SOAP UI:
 >SOAP UI est un outil graphique polyvalent utilisé pour tester des Services Web. Il peut être
 utilisé en tant qu’application autonome ou intégré dans des environnements de développement
 tels que Intellij, NetBeans et Maven. L’une des grandes forces de SOAP UI est sa compatibilité
