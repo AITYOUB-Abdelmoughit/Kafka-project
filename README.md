@@ -29,33 +29,33 @@ d’atteindre un niveau d’humidité d’environ 75
 - Nutriments : Les tomates ont besoin de niveaux adéquats d’azote, de phosphore et de
 potassium pour une croissance saine. Pensez à incorporer un engrais équilibré pour assurer une
 bonne disponibilité des nutriments.
--
+---
 ## Architecture du Projet:
-Notre architecture repose sur un modèle de producteur-consommateur. Les services web
+>Notre architecture repose sur un modèle de producteur-consommateur. Les services web
 agissent comme des producteurs, collectant et envoyant les données des capteurs dans le système.
 Ces données sont alors consommées par deux entités distinctes. La première, le système d’alerte,
 surveille les données en temps réel pour déceler toute anomalie ou tout problème potentiel.
 La deuxième, le système de recommandation, analyse les données pour fournir des conseils
 pratiques sur la gestion des cultures et du bétail. Cette architecture nous permet d’assurer une
-gestion efficace et précise de l’agriculture intelligente.
+gestion efficace et précise de l’agriculture intelligente:<br>
 <img width="233" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/c0d0ac36-f071-4f5c-a60a-a3dd2eea6e7b">
 
--
+---
 ## Les technologies utilisées dans ce projet:
-* Apache Kafka:
-    Apache Kafka est une plateforme de streaming de données open source, développée par
++ Apache Kafka:
+> Apache Kafka est une plateforme de streaming de données open source, développée par
 la Fondation Apache. Elle fournit une architecture de messagerie distribuée pour la gestion de
-flux de données en temps réel:
+flux de données en temps réel:<br>
 <img width="186" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/745713e8-0905-45c1-9d4e-8bcc0d7269ef">
 
-*Spring boot:
-    Spring Boot est un framework Java puissant et polyvalent, largement utilisé pour le
-développement d’applications autonomes et prêtes à l’emploi. Grâce à sa configuration automatique intelligente, il permet de réduire considérablement le temps et les efforts nécessaires pour démarrer un projet:
++ Spring boot:
+>Spring Boot est un framework Java puissant et polyvalent, largement utilisé pour le
+développement d’applications autonomes et prêtes à l’emploi. Grâce à sa configuration automatique intelligente, il permet de réduire considérablement le temps et les efforts nécessaires pour démarrer un projet:<br>
 <img width="276" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/f33fe36f-d732-4c0e-8a12-97fc5cf23dd9">
 
-*SOAP UI:
-    SOAP UI est un outil graphique polyvalent utilisé pour tester des Services Web. Il peut être
++ SOAP UI:
+>SOAP UI est un outil graphique polyvalent utilisé pour tester des Services Web. Il peut être
 utilisé en tant qu’application autonome ou intégré dans des environnements de développement
 tels que Intellij, NetBeans et Maven. L’une des grandes forces de SOAP UI est sa compatibilité
-avec toutes les plateformes de développement:
+avec toutes les plateformes de développement:<br>
 <img width="269" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/98530f12-7c11-4c2b-bd5e-94e1c8ac1795">
