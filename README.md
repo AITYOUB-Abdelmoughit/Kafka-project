@@ -64,3 +64,15 @@ utilisé en tant qu’application autonome ou intégré dans des environnements 
 tels que Intellij, NetBeans et Maven. L’une des grandes forces de SOAP UI est sa compatibilité
 avec toutes les plateformes de développement:<br>
 <img width="269" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/98530f12-7c11-4c2b-bd5e-94e1c8ac1795">
+<br>
+<br>
+
+## How to use:
+Avant du lancement de l'application Spring, il faut installer apache kafka sur son local machine, et puis on lance le serveur Zookeeper via les commandes:
+> `cd $KAFKA_HOME` , ou KAFKA_HOME est un variable environmental contenant le chemin d'installation d'apache Kafka.<br>
+`bin/zookeeper-server-start.sh config/zookeeper.properties` <br>
+`bin/kafka-server-start.sh config/server.properties` <br>
+Si vous êtes un utilisateur du windows, alors:<br>
+`bin/windows/zookeeper-server-start.bat config/zookeeper.properties` <br>
+`bin/windows/kafka-server-start.bat config/server.properties` <br>
+pour plus d'informations voir la documentation officielle de apache Kafka: [Documentation du kafka](https://kafka.apache.org/documentation/)
