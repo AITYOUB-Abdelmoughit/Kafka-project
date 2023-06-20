@@ -52,14 +52,12 @@ gestion efficace et précise de l’agriculture intelligente:<br>
 la Fondation Apache. Elle fournit une architecture de messagerie distribuée pour la gestion de
 flux de données en temps réel:<br>
 <img width="186" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/745713e8-0905-45c1-9d4e-8bcc0d7269ef">
-<br>
-<br>
+
 + ### Spring boot:
 >Spring Boot est un framework Java puissant et polyvalent, largement utilisé pour le
 développement d’applications autonomes et prêtes à l’emploi. Grâce à sa configuration automatique intelligente, il permet de réduire considérablement le temps et les efforts nécessaires pour démarrer un projet:<br>
 <img width="276" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/f33fe36f-d732-4c0e-8a12-97fc5cf23dd9">
-<br>
-<br>
+
 + ### SOAP UI:
 >SOAP UI est un outil graphique polyvalent utilisé pour tester des Services Web. Il peut être
 utilisé en tant qu’application autonome ou intégré dans des environnements de développement
