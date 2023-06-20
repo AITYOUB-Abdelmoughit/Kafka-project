@@ -1,5 +1,5 @@
 # Système distribué pour une agriculture intelligente et traitement de l'information
--
+## Introduction générale
 L’agriculture est l’activité humaine la plus ancienne et la plus importante et est encore
 pratiquée aujourd’hui. En raison de sa grande importance en termes de sécurité alimentaire,
 d’autant plus que l’agriculture est la principale source d’alimentation, qu’elle soit végétale ou
@@ -15,7 +15,10 @@ d’irrigation, l’usage des intrants, et la planification de travaux agricoles
 En résumé, la mise en place d’un système distribué pour une agriculture intelligente peut
 aider à améliorer la productivité agricole, à réduire les coûts et les pertes, à améliorer la qualité
 des produits, tout en préservant l’environnement et en assurant la durabilité de l’agriculture.
--
+<br>
+<br>
+
+---
 ##  Les détails de la culture de la Tomate:
 Les conditions environnementales idéales pour la croissance de la tomate:
 - Température : Les tomates préfèrent des températures comprises entre 18°C et 29°C pendant
@@ -29,6 +32,8 @@ d’atteindre un niveau d’humidité d’environ 75
 - Nutriments : Les tomates ont besoin de niveaux adéquats d’azote, de phosphore et de
 potassium pour une croissance saine. Pensez à incorporer un engrais équilibré pour assurer une
 bonne disponibilité des nutriments.
+<br>
+<br>
 ---
 ## Architecture du Projet:
 >Notre architecture repose sur un modèle de producteur-consommateur. Les services web
@@ -39,21 +44,24 @@ La deuxième, le système de recommandation, analyse les données pour fournir d
 pratiques sur la gestion des cultures et du bétail. Cette architecture nous permet d’assurer une
 gestion efficace et précise de l’agriculture intelligente:<br>
 <img width="233" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/c0d0ac36-f071-4f5c-a60a-a3dd2eea6e7b">
-
+<br>
+<br>
 ---
 ## Les technologies utilisées dans ce projet:
-+ Apache Kafka:
+### + Apache Kafka:
 > Apache Kafka est une plateforme de streaming de données open source, développée par
 la Fondation Apache. Elle fournit une architecture de messagerie distribuée pour la gestion de
 flux de données en temps réel:<br>
 <img width="186" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/745713e8-0905-45c1-9d4e-8bcc0d7269ef">
-
-+ Spring boot:
+<br>
+<br>
+### + Spring boot:
 >Spring Boot est un framework Java puissant et polyvalent, largement utilisé pour le
 développement d’applications autonomes et prêtes à l’emploi. Grâce à sa configuration automatique intelligente, il permet de réduire considérablement le temps et les efforts nécessaires pour démarrer un projet:<br>
 <img width="276" alt="image" src="https://github.com/AITYOUB-Abdelmoughit/Kafka-project/assets/94485789/f33fe36f-d732-4c0e-8a12-97fc5cf23dd9">
-
-+ SOAP UI:
+<br>
+<br>
+### + SOAP UI:
 >SOAP UI est un outil graphique polyvalent utilisé pour tester des Services Web. Il peut être
 utilisé en tant qu’application autonome ou intégré dans des environnements de développement
 tels que Intellij, NetBeans et Maven. L’une des grandes forces de SOAP UI est sa compatibilité
